@@ -13,9 +13,9 @@ export default function User() {
   return (
     <div className="user">
       <div className="userTitleContainer">
-        <h1 className="userTitle">Edit User</h1>
+        <h1 className="userTitle">Editar Usuário</h1>
         <Link to="/newUser">
-          <button className="userAddButton">Create</button>
+          <button className="userAddButton">Criar</button>
         </Link>
       </div>
       <div className="userContainer">
@@ -27,52 +27,52 @@ export default function User() {
               className="userShowImg"
             />
             <div className="userShowTopTitle">
-              <span className="userShowUsername">Anna Becker</span>
+              <span className="userShowUsername">Nome do Completo</span>
               <span className="userShowUserTitle">Software Engineer</span>
             </div>
           </div>
           <div className="userShowBottom">
-            <span className="userShowTitle">Account Details</span>
+            <span className="userShowTitle">Detalhes da conta</span>
             <div className="userShowInfo">
               <PermIdentity className="userShowIcon" />
-              <span className="userShowInfoTitle">annabeck99</span>
+              <span className="userShowInfoTitle">Usuário</span>
             </div>
             <div className="userShowInfo">
               <CalendarToday className="userShowIcon" />
               <span className="userShowInfoTitle">10.12.1999</span>
             </div>
-            <span className="userShowTitle">Contact Details</span>
+            <span className="userShowTitle">Detalhes do Contacto</span>
             <div className="userShowInfo">
               <PhoneAndroid className="userShowIcon" />
-              <span className="userShowInfoTitle">+1 123 456 67</span>
+              <span className="userShowInfoTitle">+55 41 985310 459</span>
             </div>
             <div className="userShowInfo">
               <MailOutline className="userShowIcon" />
-              <span className="userShowInfoTitle">annabeck99@gmail.com</span>
+              <span className="userShowInfoTitle">fpaquete@gmail.com</span>
             </div>
             <div className="userShowInfo">
               <LocationSearching className="userShowIcon" />
-              <span className="userShowInfoTitle">New York | USA</span>
+              <span className="userShowInfoTitle">Paraná | Brasil</span>
             </div>
           </div>
         </div>
         <div className="userUpdate">
-          <span className="userUpdateTitle">Edit</span>
+          <span className="userUpdateTitle">Editar</span>
           <form className="userUpdateForm">
             <div className="userUpdateLeft">
               <div className="userUpdateItem">
-                <label>Username</label>
+                <label>Nome do Usuário</label>
                 <input
                   type="text"
-                  placeholder="annabeck99"
+                  placeholder="Digite um nome de usuário"
                   className="userUpdateInput"
                 />
               </div>
               <div className="userUpdateItem">
-                <label>Full Name</label>
+                <label>Nome Completo</label>
                 <input
                   type="text"
-                  placeholder="Anna Becker"
+                  placeholder="Digite o primeiro e o ultimo"
                   className="userUpdateInput"
                 />
               </div>
@@ -80,23 +80,23 @@ export default function User() {
                 <label>Email</label>
                 <input
                   type="text"
-                  placeholder="annabeck99@gmail.com"
+                  placeholder="Digite o emal"
                   className="userUpdateInput"
                 />
               </div>
               <div className="userUpdateItem">
-                <label>Phone</label>
+                <label>Telefone</label>
                 <input
                   type="text"
-                  placeholder="+1 123 456 67"
+                  placeholder="Digite o telefone"
                   className="userUpdateInput"
                 />
               </div>
               <div className="userUpdateItem">
-                <label>Address</label>
+                <label>Endereço</label>
                 <input
                   type="text"
-                  placeholder="New York | USA"
+                  placeholder="Digite o endereço"
                   className="userUpdateInput"
                 />
               </div>
@@ -113,7 +113,7 @@ export default function User() {
                 </label>
                 <input type="file" id="file" style={{ display: "none" }} />
               </div>
-              <button className="userUpdateButton">Update</button>
+              <button className="userUpdateButton">Atualizar</button>
             </div>
           </form>
         </div>

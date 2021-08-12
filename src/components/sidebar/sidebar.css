@@ -1,7 +1,7 @@
 .sidebar {
   flex: 1;
   height: calc(100vh - 50px);
-  background-color: rgb(251, 251, 255);
+  background-color: #242424;
   position: sticky;
   top: 50px;
 }
@@ -17,7 +17,7 @@
 
 .sidebarTitle {
   font-size: 13px;
-  color: rgb(187, 186, 186);
+  color: #f4f4f4;
 }
 
 .sidebarList {
@@ -35,7 +35,8 @@
 
 .sidebarListItem.active,
 .sidebarListItem:hover {
-  background-color: rgb(240, 240, 255);
+  color: #f4f4f4;
+  background-color: #494949;
 }
 
 .sidebarIcon{

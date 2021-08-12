@@ -1,0 +1,100 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    background: linear-gradient(
+      to bottom,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 1, 1, 1) 100%
+    ),
+    url("https://img-premium.flaticon.com/png/128/2828/premium/2828307.png?token=exp=1627610825~hmac=15f7fd7dde5b80df1d9a585dd7fb4aab");
+    background-size: cover; 
+    position: relative;
+   
+      
+}
+  
+  .loginForm {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    color: #fff;
+    background-color: #111111;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+      
+  }
+
+  .loginTitle {
+    color: #fff;
+    
+  }
+
+  .loginIcons {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+     
+  }
+  
+  .user{
+    display: inline-block;
+    flex-direction: row;
+    position: absolute;
+    padding: 5px;
+    margin-bottom: 40px;
+    
+  }
+
+  .password{
+    display: inline-block;
+    position: absolute;
+    padding: 5px;
+    margin-top: 70px;
+
+  }
+  .loginInput {
+    height: 20px;
+    width: 100%;
+    background-color: #464747;
+    color: #fff;
+    margin-left: 40px;
+    position: relative;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    
+  }
+
+   .loginInput > placeholder {
+    color: lightgray;
+  }
+  
+  .loginButton {
+    height: 40px;
+    width: 50%;
+    margin-left: 40px;
+    margin-top: 50px;
+    background-color: #0d6cbf;
+    color: #f4f4f4;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+
+  .loginButton:hover {
+    background-color: #117bd8;
+    font-weight: 700;
+    color: #fff;
+    transition: all 0.2s;
+  }

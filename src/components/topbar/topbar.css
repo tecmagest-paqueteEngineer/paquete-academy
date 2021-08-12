@@ -1,10 +1,14 @@
 .topbar {
   width: 100%;
   height: 50px;
-  background-color: white;
+  background-color:  #202020;
   position: sticky;
   top: 0;
   z-index: 999;
+  left: 0;
+  right: 0;
+  background-color: #202020;
+  transition: all ease 0.5s;
 }
 
 .topbarWrapper {
@@ -18,7 +22,7 @@
 .logo {
   font-weight: bold;
   font-size: 30px;
-  color: darkblue;
+  color: #67ad54;
   cursor: pointer;
 }
 
@@ -50,8 +54,8 @@
 }
 
 .topAvatar{
-    width: 40px;
-    height: 40px;
+    width: 38px;
+    height: 38px;
     border-radius: 50%;
     cursor: pointer;
 }

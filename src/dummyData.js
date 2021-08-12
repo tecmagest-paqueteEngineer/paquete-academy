@@ -1,65 +1,66 @@
+
 export const userData = [
     {
-      name: "Jan",
+      name: "Janeiro",
       "Active User": 4000,
     },
     {
-      name: "Feb",
+      name: "Fevereiro",
       "Active User": 3000,
     },
     {
-      name: "Mar",
+      name: "Março",
       "Active User": 5000,
     },
     {
-      name: "Apr",
+      name: "Abrilr",
       "Active User": 4000,
     },
     {
-      name: "May",
+      name: "Maio",
       "Active User": 3000,
     },
     {
-      name: "Jun",
+      name: "Junho",
       "Active User": 2000,
     },
     {
-      name: "Jul",
+      name: "Julho",
       "Active User": 4000,
     },
     {
-      name: "Agu",
+      name: "Agosto",
       "Active User": 3000,
     },
     {
-      name: "Sep",
+      name: "Setembro",
       "Active User": 4000,
     },
     {
-      name: "Oct",
+      name: "Outubroct",
       "Active User": 1000,
     },
     {
-      name: "Nov",
+      name: "Novembro",
       "Active User": 4000,
     },
     {
-      name: "Dec",
+      name: "Dezembro",
       "Active User": 3000,
     },
   ];
 
   export const productData = [
     {
-      name: "Jan",
+      name: "Janeiro",
       "Sales": 4000,
     },
     {
-      name: "Feb",
+      name: "Fevereiro",
       "Sales": 3000,
     },
     {
-      name: "Mar",
+      name: "Março",
       "Sales": 5000,
     },
   ];
