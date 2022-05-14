@@ -19,7 +19,7 @@ export default function Login() {
           <img
             className="logo"
             src="images/logoafronetfilmes.png"
-            alt="AfronetFilme"
+            alt="AfronetFilmes"
           />
         </div>
       </div>
@@ -28,7 +28,7 @@ export default function Login() {
           <h1>Obter Acesso</h1>
           <input
             type="email"
-            placeholder="Digite seu email ou telefone móvel"
+            placeholder="Digite seu email ou telemóvel"
             onChange={(e) => setEmail(e.target.value)}
           />
           <input
@@ -40,7 +40,7 @@ export default function Login() {
             Entrar
           </button>
           <span>
-          Novo(a) no AfronetFlimes?<b> Inscra-te aqui.</b>
+          Novo(a) no AfronetFilmes?<b> Inscra-te agora.</b>
           </span>
           <small>
           Esta pagina é protegida. Usamos reCPTCHA, para garantir que você não é um robô.<b> Leia mais</b>.

@@ -9,7 +9,7 @@ export const loginStart = () => ({
     type: "LOGIN_FAILURE",
   });
   
-  //logout
+  //Sair
   
   export const logout = () => ({
     type: "LOGOUT",
