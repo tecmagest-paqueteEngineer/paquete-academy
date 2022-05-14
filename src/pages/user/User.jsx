@@ -27,7 +27,7 @@ export default function User() {
               className="userShowImg"
             />
             <div className="userShowTopTitle">
-              <span className="userShowUsername">Nome do Completo</span>
+              <span className="userShowUsername">Nome Completo</span>
               <span className="userShowUserTitle">Software Engineer</span>
             </div>
           </div>
@@ -64,7 +64,7 @@ export default function User() {
                 <label>Nome do Usuário</label>
                 <input
                   type="text"
-                  placeholder="Digite um nome de usuário"
+                  placeholder="Digite o nome do usuário"
                   className="userUpdateInput"
                 />
               </div>
@@ -72,7 +72,7 @@ export default function User() {
                 <label>Nome Completo</label>
                 <input
                   type="text"
-                  placeholder="Digite o primeiro e o ultimo"
+                  placeholder="Digite o Primeiro e o Ultimo"
                   className="userUpdateInput"
                 />
               </div>
@@ -80,7 +80,7 @@ export default function User() {
                 <label>Email</label>
                 <input
                   type="text"
-                  placeholder="Digite o emal"
+                  placeholder="Digite seu email"
                   className="userUpdateInput"
                 />
               </div>

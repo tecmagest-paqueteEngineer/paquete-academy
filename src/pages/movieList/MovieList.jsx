@@ -35,7 +35,7 @@ export default function MovieList() {
     { field: "genre", headerName: "Genre", width: 120 },
     { field: "year", headerName: "year", width: 120 },
     { field: "seasons", headerName: "seasons", width: 120 },
-    { field: "maturityRating", headerName: "maturityRating", width: 120 },
+    { field: "limit", headerName: "limit", width: 120 },
     { field: "isSeries", headerName: "isSeries", width: 120 },
 
     {
@@ -48,7 +48,7 @@ export default function MovieList() {
             <Link
               to={{ pathname: "/movie/" + params.row._id, movie: params.row }}
             >
-              <button className="productListEdit">Edit</button>
+              <button className="productListEdit">Editar</button>
             </Link>
             <DeleteOutline
               className="productListDelete"

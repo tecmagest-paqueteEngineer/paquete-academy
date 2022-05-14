@@ -31,7 +31,7 @@ export default function Login() {
         />
         <input
           type="password"
-          placeholder="Digite a senha"
+          placeholder="Digite sua senha"
           className="loginInput"
           onChange={(event) => setPassword(event.target.value)}
         />

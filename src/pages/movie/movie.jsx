@@ -34,7 +34,7 @@ export default function Movie() {
             </div>
             <div className="productInfoItem">
               <span className="productInfoKey">Classificação:</span>
-              <span className="productInfoValue">{movie.maturityRating}</span>
+              <span className="productInfoValue">{movie.limit}</span>
             </div>
           </div>
         </div>
@@ -49,7 +49,7 @@ export default function Movie() {
             <label>Gênero</label>
             <input type="text" placeholder={movie.genre} />
             <label>Classificação</label>
-            <input type="text" placeholder={movie.maturityRating} />
+            <input type="text" placeholder={movie.limit} />
             <label>Trailer</label>
             <input type="file" placeholder={movie.trailer} />
             <label>Vídeo</label>

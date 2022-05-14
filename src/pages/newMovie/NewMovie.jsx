@@ -9,7 +9,7 @@ export default function NewMovie() {
   const [image, setImage] = useState(null);
   const [imageTitle, setImageTitle] = useState(null);
   const [ismallImage, setIsmallImage] = useState(null);
-  const [movieTrailer, setMovieTrailer] = useState(null);
+  const [trailer, setTrailer] = useState(null);
   const [video, setVideo] = useState(null);
   const [uploaded, setUploaded] = useState(0);
 
@@ -52,7 +52,7 @@ export default function NewMovie() {
       { file: image, label: "image" },
       { file: imageTitle, label: "imageTitle" },
       { file: ismallImage, label: "ismallImage" },
-      { file: movieTrailer, label: "movieTrailer" },
+      { file: trailer, label: "trailer" },
       { file: video, label: "video" },
     ]);
   };
@@ -139,11 +139,11 @@ export default function NewMovie() {
           />
         </div>
         <div className="addProductItem">
-          <label>Classificação ou Maturidade</label>
+          <label>Classificação</label>
           <input
             type="text"
             placeholder="Classificação ou a maturidade"
-            name="maturityRating"
+            name="limit"
             onChange={handleChange}
           />
         </div>
@@ -174,8 +174,8 @@ export default function NewMovie() {
           <label>Trailer</label>
           <input
             type="file"
-            name="movieTrailer"
-            onChange={(event) => setMovieTrailer(event.target.files[0])}
+            name="trailer"
+            onChange={(event) => setTrailer(event.target.files[0])}
           />
         </div>
         <div className="addProductItem">
